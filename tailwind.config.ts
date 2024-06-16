@@ -14,14 +14,28 @@ const config: Config = {
           '50%': { transform: 'translateX(30%)' },
         },
         'firstload': {
-          '0%':{opacity:'1'},
-          '80%':{opacity:'1'},
-          '100%':{opacity:'0'}
+          '0%': {
+            height: '100vh',
+            opacity: '1'
+          },
+          '70%': {
+            height: '100vh',
+            opacity: '1'
+          },
+          '100%': {
+            height: '0vh',
+            opacity: '0'
+          }
+        },
+        'firstloadtext': {
+          '0%': { fontSize: '20vw' },
+          '70%': { fontSize: '20vw' },
+          '100%': { fontSize: '0vw' }
         }
       },
-      backgroundImage:{
-        'bg1':'url("/back.jpg")'
-        
+      backgroundImage: {
+        'bg1': 'url("/back.jpg")'
+
       }
     },
   },
