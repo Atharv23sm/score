@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,4 +33,22 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* scrollbar css*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #def;
+  border:1px solid black ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #abc;
 }
