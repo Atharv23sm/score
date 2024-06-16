@@ -12,6 +12,11 @@ const config: Config = {
         'navbar': {
           '0%,100%': { transform: 'translateX(0%)' },
           '50%': { transform: 'translateX(30%)' },
+        },
+        'firstload': {
+          '0%':{opacity:'1'},
+          '80%':{opacity:'1'},
+          '100%':{opacity:'0'}
         }
       },
       backgroundImage:{
